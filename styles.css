@@ -1,0 +1,113 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+nav select,
+nav input {
+  margin: 10px;
+  padding: 5px;
+}
+
+#year-select {
+  margin-right: 8%;
+}
+
+header .welcome-message {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  margin-top: 20px;
+}
+
+h1 {
+  color: #ff6f61;
+}
+
+p {
+  font-family: "Verdana", sans-serif;
+}
+
+.controls {
+  text-align: center;
+  padding: 10px;
+}
+
+.styled-select {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+#rating-range {
+  vertical-align: middle;
+}
+
+#rating-value {
+  margin-left: 10px;
+  color: #ff6f61;
+  font-weight: bold;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin-left: 8%;
+}
+
+#search-icon {
+  background: none;
+  color: #f5f5f5;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#search-bar {
+  font-size: 16px;
+  padding: 5px;
+  width: 0;
+  border: none;
+  transition: width 0.4s ease-in-out;
+  cursor: pointer;
+  opacity: 0;
+}
+
+#search-bar:focus {
+  outline: none;
+}
